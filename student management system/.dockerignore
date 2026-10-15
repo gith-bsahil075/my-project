@@ -1,0 +1,6 @@
+bin/
+data/
+.vscode/
+.git/
+*.zip
+README.md

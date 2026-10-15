@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Student Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-page">
+  <div class="login-card">
+    <div class="brand-icon login-icon-badge" style="display:flex;">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 1 7l11 5 9-4.09V17h2V7L12 2zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
+    </div>
+    <h1>Student Management System</h1>
+    <p class="login-sub">Admin Login</p>
+
+    <div class="error-banner" id="errorBanner" hidden></div>
+
+    <form id="loginForm">
+      <label class="field">
+        <span>Username</span>
+        <input type="text" id="username" name="username" autocomplete="username" required autofocus>
+      </label>
+      <label class="field password-field">
+        <span>Password</span>
+        <input type="password" id="password" name="password" autocomplete="current-password" required>
+        <button type="button" class="password-toggle" id="togglePassword" title="Show/hide password"></button>
+      </label>
+      <label class="remember-row">
+        <input type="checkbox" id="rememberMe">
+        Remember me
+      </label>
+      <button type="submit" class="btn btn-primary" id="loginBtn" style="justify-content:center;">Log In</button>
+    </form>
+
+    <p class="login-hint">
+      First time running this project? Default login is<br>
+      <strong>admin</strong> / <strong>admin123</strong>
+    </p>
+    <p class="login-switch">
+      Are you a student? <a href="student-login.html">Log in here</a>
+    </p>
+  </div>
+</div>
+
+<script src="js/icons.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

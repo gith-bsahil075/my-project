@@ -1,0 +1,6 @@
+1,1,computer science,72.0,100.0
+2,1,compiler design,66.0,100.0
+3,1,environment,55.0,100.0
+4,2,computer science,88.0,100.0
+5,2,compiler design,99.0,100.0
+6,2,environment,75.0,100.0

@@ -1,0 +1,6 @@
+1,1,computer science,2026-07-26,Present
+2,1,english,2026-07-26,Present
+3,1,engineering graphics,2026-07-26,Present
+4,2,computer science,2026-07-26,Present
+5,2,environment,2026-07-26,Present
+6,2,heat mechanism,2026-07-26,Present

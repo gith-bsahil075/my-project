@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Main (Console version)",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "StudentManagementSystem"
+        },
+        {
+            "type": "java",
+            "name": "Launch ServerMain (Web version)",
+            "request": "launch",
+            "mainClass": "ServerMain",
+            "projectName": "StudentManagementSystem"
+        }
+    ]
+}
